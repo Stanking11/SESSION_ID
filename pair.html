@@ -173,12 +173,12 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">J𝖀𝗦𝐓Λ𝗧𝙕-𝙈𝘿 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀</h3>
+            <h3 class="centered-text">STANY TECH TZ</h3>
             <br>
-            <h6>𝙈𝘼𝘿𝙀 𝘽𝙔 J𝖀𝗦𝐓Λ𝗧𝙕.</h6>
+            <h6>MADE BY STANY-TECH.</h6>
             <h6>𝙀𝙣𝙩𝙚𝙧 𝙔𝙤𝙪𝙧 𝙉𝙪𝙢𝙗𝙚𝙧 𝙬𝙞𝙩𝙝 𝘾𝙤𝙪𝙣𝙩𝙧𝙮 𝘾𝙤𝙙𝙚.</h6>
             <div class="input-container">
-              <input placeholder="255760****" type="number" id="number" placeholder="Enter your Phone Number with Country Code" name="">
+              <input placeholder="255610****" type="number" id="number" placeholder="Enter your Phone Number with Country Code" name="">
               <button id="submit">Submit</button>
             </div>
             
@@ -238,7 +238,7 @@
         a.innerHTML = '<a style="color:white;font-weight:bold">Please Wait...</a><br><br>';
         let { data } = await axios(`/code?number=${Wasi_Tech}`);
         let code = data.code || "Service Unavailable";
-        a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">CODE: <span style="color:white;font-weight:bold">' + code + '</span></font><br><br><br>';
+        a.innerHTML = '<font id="copy" onclick="Copy()" style="color:blue;font-weight:bold" size="5">CODE: <span style="color:red;font-weight:bold">' + code + '</span></font><br><br><br>';
       }
     });
 

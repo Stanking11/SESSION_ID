@@ -57,25 +57,25 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-┃STANY TZR ZMD 
-┃𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔
-┃𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿 ✅🔥
-┗━━━━━━━━━━━━━━━
+> ┏━━━━━━━━━━━━━━
+> ┃𝙎𝙏𝘼𝙉𝙔 𝙏𝙕𝙍 𝙕𝙈𝘿
+> ┃𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔
+> ┃𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿 ✅🔥
+> ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-574N6T3CH de STANY-TECH
+*574N6T3CH de STANY-TECH*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-FOLLOW US FOR HACKING AND TECHNOLOGY UPDATE
+* FOLLOW US FOR HACKING AND TECHNOLOGY UPDATE
  https://whatsapp.com/channel/0029Vb5RfcrJ3jv4u0wJwd0r
-JOIN US FOR DAILY USEFUL TIPS 
+* JOIN US FOR DAILY USEFUL TIPS 
  https://chat.whatsapp.com/I6Ey19yeqQvCBBuzXIzece
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ANY INCONVENIENCE DM ME DIRECTLY
-574N6T3CH de STANY-TECH 
+> ANY INCONVENIENCE DM ME DIRECTLY
+> 574N6T3CH de STANY-TECH 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*STANY-TECH AND SUPPORT OF IT TECH BRO'S TEAM*
+> *STANY-TECH AND SUPPORT OF IT TECH BRO'S TEAM*
 
-_Don't Forget To Give Star To My Repo_`
+_Thanks for Choosing Us Fork and Star My Repo🔥_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
